@@ -1,0 +1,18 @@
+<div class="container">
+  <header-i18n showLangText="false" class="langs"></header-i18n>
+  <div class="wrap">
+    <div class="top">
+      <div class="head">
+        <img class="logo" src="./assets/logo-color.svg">
+        <span class="title">气象局管理平台</span>
+      </div>
+      <div class="desc"></div>
+    </div>
+    <router-outlet></router-outlet>
+    <global-footer [links]="links">
+      Copyright
+      <i class="anticon anticon-copyright"></i> 2019
+      常州完美维度科技有限公司
+    </global-footer>
+  </div>
+</div>

@@ -1,0 +1,118 @@
+{
+  "app": {
+    "name": "气象局平台",
+    "description": "气象局平台"
+  },
+  "menu": [{
+    "text": "主导航",
+    "group": true,
+    "children": [{
+        "text": "用户维护",
+        "link": "/user/user-list",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        }
+      }
+    ]
+  },{
+    "text": "业务工作",
+    "group": true,
+    "children": [{
+        "text": "96121制作",
+        "link": "/txt/txt-list/1",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        }
+      },
+      {
+        "text": "铁通文本更新",
+        "link": "/txt/txt-list/2",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        }
+      },
+      {
+        "text": "影视制作（解说词）",
+        "link": "/word/word-list/1",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        }
+      },
+      {
+        "text": "专项气象服务",
+        "link": "/word/word-list/2",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        }
+      }
+      ,
+      {
+        "text": "预报预测",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        },
+        "children": [
+          {
+            "text": "周报",
+            "link": "/word/word-list/3",
+            "icon": {
+              "type": "icon",
+              "value": "user"
+            }
+          },
+          {
+            "text": "旬报",
+            "link": "/word/word-list/4",
+            "icon": {
+              "type": "icon",
+              "value": "user"
+            }
+          },
+          {
+            "text": "月报",
+            "link": "/word/word-list/5",
+            "icon": {
+              "type": "icon",
+              "value": "user"
+            }
+          }
+        ]
+      }
+    ]
+  },{
+    "text": "业务工作",
+    "group": true,
+    "children": [{
+        "text": "邮箱服务",
+        "link": "/email-config/email-config-list",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        }
+      },
+      {
+        "text": "FTP服务",
+        "link": "/ftp-config/ftp-config-list",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        }
+      },
+      {
+        "text": "Sys",
+        "link": "/sys/sys-list",
+        "icon": {
+          "type": "icon",
+          "value": "user"
+        }
+      }
+    ]
+  }
+]
+}
